@@ -1,0 +1,7 @@
+
+*.xml
+*.csproj
+obj/
+Properties/AssemblyInfo.cs
+packages.config
+packages/
