@@ -1,7 +1,7 @@
 
-*.xml
 *.csproj
 obj/
+bin/
 Properties/AssemblyInfo.cs
 packages.config
 packages/

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <filters>
+    <fromDateFilter>
+      <filterValue>2018-06-14T12:12:12+01:00</filterValue>
+    </fromDateFilter>
+    <toDateFilter>
+      <filterValue>2018-11-16T23:59:59+01:00</filterValue>
+    </toDateFilter>
+    <hasStatusFilter>
+      <filterValue>paid</filterValue>
+    </hasStatusFilter>
+    <hasTagFilter>
+      <filterValue>
+        <tagName>Test</tagName>
+        <exclude>false</exclude>
+      </filterValue>
+    </hasTagFilter>
+  </filters>
+</list>
