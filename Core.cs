@@ -5,7 +5,6 @@ using EffectConnectSDK.Call;
 using EffectConnectSDK.Enum;
 using EffectConnectSDK.Interface;
 using EffectConnectSDK.Model;
-using Version = EffectConnectSDK.Enum.Version;
 
 namespace EffectConnectSDK
 {
@@ -19,7 +18,7 @@ namespace EffectConnectSDK
             
             ApiCall call = new ApiCall(keyset);
             
-            Console.WriteLine(call.call(_testProducts()));
+            Console.WriteLine(call.call(_testOrderlist()));
         }
 
         private static ApiCallInterface _testOrderlist()
@@ -41,6 +40,24 @@ namespace EffectConnectSDK
             // productsCall.SetVersion(Version.V2);
             
             return productsCall;
+        }
+        
+        private static ApiCallInterface _testOrderlineUpdate()
+        {
+            string path = Path.Combine(Environment.CurrentDirectory, @"example", "orderline_update.xml");   
+            Payload payload = new Payload(File.ReadAllText(path));
+            OrderCall orderCall = new OrderCall(Endpoint.Update, payload);
+            
+            return orderCall;
+        }
+        
+        private static ApiCallInterface _testOrderUpdate()
+        {
+            string path = Path.Combine(Environment.CurrentDirectory, @"example", "order_update.xml");   
+            Payload payload = new Payload(File.ReadAllText(path));
+            OrderCall orderCall = new OrderCall(Endpoint.Update, payload);
+            
+            return orderCall;
         }
     }
 }

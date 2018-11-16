@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update>
+    <orderlines>
+        <lineUpdate>
+            <orderlineIdentifierType>channelLineId</orderlineIdentifierType>
+            <orderlineIdentifier>SHOP12345_1</orderlineIdentifier>
+            <trackingNumber>JVGL133242424234</trackingNumber>
+            <carrier>DHL</carrier>
+        </lineUpdate>
+    </orderlines>
+</update>

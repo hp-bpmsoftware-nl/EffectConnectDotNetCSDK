@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update>
+    <orders>
+        <orderUpdate>
+            <orderIdentifierType>channelNumber</orderIdentifierType>
+            <orderIdentifier>SHOP12345</orderIdentifier>
+            <connectionIdentifier>322</connectionIdentifier>
+            <connectionInvoice>INV-2018-322</connectionInvoice>
+            <connectionNumber>ORD000322</connectionNumber>
+            <addTags>
+                <tag>customtag1</tag>
+            </addTags>
+            <removeTags>
+                <tag>customtag2</tag>
+            </removeTags>
+        </orderUpdate>
+    </orders>
+</update>
